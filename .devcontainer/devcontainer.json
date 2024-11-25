@@ -15,7 +15,7 @@
     // Use 'forwardPorts' to make a list of ports inside the container available locally.
     // "forwardPorts": [],
     // Use 'postCreateCommand' to run commands after the container is created.
-    "postCreateCommand": "pip install poetry pre-commit mkdocs-material",
+    "postCreateCommand": "pip install poetry pre-commit mkdocs-material mkdocs-glightbox",
     // Configure tool-specific properties.
     "customizations": {
         "vscode": {
